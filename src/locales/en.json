@@ -28,17 +28,17 @@
   "home": {
     "meta": {
       "title": "Animal Hospital Wiki — Codes, Classes, Tier List & Anomaly Guide",
-      "description": "Complete Animal Hospital Roblox wiki with latest codes, class tier lists, anomaly guides, item database, and walkthroughs."
+      "description": "Fan-made wiki for Roblox Animal Hospital co-op survival horror game."
     },
     "hero": {
       "eyebrow": "Fan-Made Community Wiki",
       "title": "Animal Hospital",
-      "description": "A wave-defense zombie survival game on Roblox. Pick your class, gear up with devastating weapons, hold the line against endless undead hordes and outlast every wave to claim victory.",
+      "description": "A co-op survival horror game on Roblox. Work the night shift at a veterinary hospital, screen animal patients for hidden anomalies, treat the sick, and survive the horrors that lurk in the corridors.",
       "stats": [
         "Platform: Roblox",
-        "Genre: Zombie Survival / Wave Defense",
-        "Feature: Class & Weapon Loadout System",
-        "",
+        "Genre: Co-op Survival Horror",
+        "Feature: Anomaly Detection & Class System",
+        "Players: Up to 30 per Server",
         ""
       ],
       "primaryCta": "Start Beginner Guide",
@@ -53,27 +53,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your Survival Journey",
+      "title": "Your Hospital Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": ""
+          "description": "Learn the basics of patient screening and Sanity management"
         },
         {
           "number": "2",
-          "title": "Weapons Guide",
-          "description": ""
+          "title": "Anomaly Guide",
+          "description": "Master all 31 anomalies: appearance, photo, and CCTV detection"
         },
         {
           "number": "3",
-          "title": "Active Codes",
-          "description": ""
+          "title": "Class Tier List",
+          "description": "Find the best class for your playstyle and budget"
         },
         {
           "number": "4",
-          "title": "Class Tier List",
-          "description": ""
+          "title": "Best Builds",
+          "description": "Optimal loadouts for solo and co-op play"
         }
       ]
     },
@@ -84,7 +84,7 @@
         {
           "order": 1,
           "name": "Animal Hospital Codes",
-          "description": "All currently working Animal Hospital codes in one place. Redeem them in-game for free Coins, Cash, XP boosts, and exclusive weapons to help you hold the arena through later waves. Codes are time-limited and drop alongside milestones and updates, so check back often.",
+          "description": "Animal Hospital currently has no code redemption system. Check back for updates — we monitor all channels for new code releases.",
           "href": "/codes",
           "displayType": "code-cards",
           "highlights": [
@@ -132,13 +132,13 @@
           "references": [
             "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
             "https://progameguides.com/roblox/",
-            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+codes"
+            "https://www.youtube.com/results?search_query=survive+anomaly+arena+roblox+codes"
           ]
         },
         {
           "order": 2,
           "name": "Animal Hospital Tier List",
-          "description": "Animal Hospital weapon and class tier list ranked from S to D based on damage output, crowd control, ammo efficiency, and boss performance. Find the strongest loadouts for holding late waves and which weapons to spend your Coins on first.",
+          "description": "All 10 classes ranked from S to D tier. Compare costs, abilities, and upgrade paths to find your perfect class.",
           "href": "/tier-list",
           "displayType": "tier-grid",
           "highlights": [
@@ -165,7 +165,7 @@
           ],
           "references": [
             "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
-            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+tier+list+best+weapons",
+            "https://www.youtube.com/results?search_query=survive+anomaly+arena+roblox+tier+list+best+weapons",
             "https://progameguides.com/roblox/"
           ]
         },
@@ -182,11 +182,11 @@
             },
             {
               "label": "Rocket Launcher",
-              "detail": "Best AoE burst for clustered hordes and boss phases; limited ammo means use it on dense groups or elite zombies."
+              "detail": "Best AoE burst for clustered hordes and boss phases; limited ammo means use it on dense groups or elite anomalys."
             },
             {
               "label": "Sniper Rifle",
-              "detail": "One-shot headshot potential on most zombies; ideal for picking off Brutes and Spitters from range before they close in."
+              "detail": "One-shot headshot potential on most anomalys; ideal for picking off Brutes and Spitters from range before they close in."
             },
             {
               "label": "Combat Shotgun",
@@ -202,7 +202,7 @@
             },
             {
               "label": "Scout Class",
-              "detail": "Increased movement speed and reload speed; best for kiting fast zombies and repositioning during boss fights."
+              "detail": "Increased movement speed and reload speed; best for kiting fast anomalys and repositioning during boss fights."
             },
             {
               "label": "Engineer Class",
@@ -211,7 +211,7 @@
           ],
           "references": [
             "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
-            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+best+weapons+classes",
+            "https://www.youtube.com/results?search_query=survive+anomaly+arena+roblox+best+weapons+classes",
             "https://progameguides.com/roblox/"
           ]
         },
@@ -249,14 +249,14 @@
           ],
           "references": [
             "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
-            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+beginner+guide+how+to+play",
+            "https://www.youtube.com/results?search_query=survive+anomaly+arena+roblox+beginner+guide+how+to+play",
             "https://progameguides.com/roblox/"
           ]
         },
         {
           "order": 5,
           "name": "Animal Hospital Wave Guide",
-          "description": "Complete wave-by-wave progression guide for Animal Hospital. Covers enemy types that appear in each wave bracket, when special zombies spawn, boss wave timing, and the recommended weapons and positioning for each phase.",
+          "description": "Complete wave-by-wave progression guide for Animal Hospital. Covers enemy types that appear in each wave bracket, when special anomalys spawn, boss wave timing, and the recommended weapons and positioning for each phase.",
           "href": "/wave-guide",
           "displayType": "card-list",
           "highlights": [
@@ -282,7 +282,7 @@
             },
             {
               "label": "Waves 15–19",
-              "detail": "Armored zombies and mixed elite spawns; switch to AoE weapons like the LMG or Flamethrower to handle density."
+              "detail": "Armored anomalys and mixed elite spawns; switch to AoE weapons like the LMG or Flamethrower to handle density."
             },
             {
               "label": "Wave 20+",
@@ -295,7 +295,7 @@
           ],
           "references": [
             "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
-            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+waves+enemies+guide",
+            "https://www.youtube.com/results?search_query=survive+anomaly+arena+roblox+waves+enemies+guide",
             "https://progameguides.com/roblox/"
           ]
         },
@@ -341,7 +341,7 @@
           ],
           "references": [
             "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
-            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+boss+strategy",
+            "https://www.youtube.com/results?search_query=survive+anomaly+arena+roblox+boss+strategy",
             "https://progameguides.com/roblox/"
           ]
         },
@@ -358,7 +358,7 @@
             },
             {
               "label": "2",
-              "detail": "Always hold a choke point or doorway — funneling zombies into a line makes any weapon far more efficient."
+              "detail": "Always hold a choke point or doorway — funneling anomalys into a line makes any weapon far more efficient."
             },
             {
               "label": "3",
@@ -379,7 +379,7 @@
           ],
           "references": [
             "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
-            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+tips+tricks+how+to+win",
+            "https://www.youtube.com/results?search_query=survive+anomaly+arena+roblox+tips+tricks+how+to+win",
             "https://progameguides.com/roblox/"
           ]
         },
@@ -426,7 +426,7 @@
           "references": [
             "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
             "https://www.roblox.com/discover",
-            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+update+patch+notes"
+            "https://www.youtube.com/results?search_query=survive+anomaly+arena+roblox+update+patch+notes"
           ]
         }
       ],
@@ -536,7 +536,7 @@
   "footer": {
     "aboutTitle": "Animal Hospital Wiki",
     "about": "",
-    "description": "Fan-made wiki for Roblox Animal Hospital wave-defense survival game.",
+    "description": "Fan-made wiki for Roblox Animal Hospital co-op survival horror game.",
     "playGame": "Play Animal Hospital",
     "officialDiscord": "Official Discord",
     "officialYoutube": "Official YouTube",
@@ -548,7 +548,7 @@
     "guides": "Guides",
     "legal": "Legal",
     "beginnerGuide": "Beginner Guide",
-    "tipsGuide": "Weapons Guide",
+    "tipsGuide": "Anomaly Guide",
     "controlsGuide": "Classes",
     "unitsGuide": "Loadouts",
     "contact": "Contact"
@@ -574,7 +574,7 @@
   "metadata": {
     "title": "Animal Hospital Wiki — Codes, Classes, Tier List & Anomaly Guide",
     "description": "Complete Animal Hospital Roblox wiki with latest codes, class tier lists, anomaly guides, item database, and walkthroughs.",
-    "keywords": "animal hospital wiki, roblox, codes, weapons, classes, tier list, waves, enemies, maps, loadouts, beginner guide, zombie survival, wave defense"
+    "keywords": "animal hospital wiki, roblox, codes, weapons, classes, tier list, waves, enemies, maps, loadouts, beginner guide, survival horror, anomaly survival"
   },
   "codes": {
     "overviewTitle": "Codes",
@@ -743,7 +743,7 @@
           "heading": "What Is Animal Hospital Wiki?",
           "paragraphs": [
             "Animal Hospital Wiki is an independent fan-made community site dedicated to the Roblox anime tower defense game Animal Hospital by TBD. Our mission is to provide accurate, up-to-date information to help players of all skill levels get the most out of the game.",
-            "We cover the latest codes, comprehensive unit tier lists, evolution paths, trait explanations, gamepass reviews, and update breakdowns. Whether you're a new player figuring out your first summon or a veteran optimizing your wave defense strategy, our guides are designed to help you succeed."
+            "We cover the latest codes, comprehensive unit tier lists, evolution paths, trait explanations, gamepass reviews, and update breakdowns. Whether you're a new player figuring out your first summon or a veteran optimizing your anomaly survival strategy, our guides are designed to help you succeed."
           ]
         },
         {
