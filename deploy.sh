@@ -156,7 +156,7 @@ main() {
       ;;
     all|"")
       print_separator
-      print_info "Anime Squadron Wiki 部署脚本"
+      print_info "Animal Hospital Wiki 部署脚本"
       print_info "站点 URL: $SITE_URL"
       print_separator
 

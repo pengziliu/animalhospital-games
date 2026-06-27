@@ -9,7 +9,7 @@ import Script from "next/script";
  * 使用 next/script 的 afterInteractive 策略，静态导出（output: export）
  * 时脚本会被直接嵌进生成的 HTML。
  */
-const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "G-976C1HC8GG";
+const GA_ID = process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID || "G-SGQQ3GC5DN";
 
 export function GoogleAnalytics() {
   if (!GA_ID) return null;
