@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Advertisement</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: transparent;
+      overflow: hidden;
+    }
+    * { box-sizing: border-box; }
+  </style>
+</head>
+<body>
+<script>
+// ============================================================
+//  防御脚本 —— 在 invoke.js 加载前预装 hook
+//
+//  安全分层：
+//  ① sandbox 无 allow-top-navigation → 广告脚本无论如何都无法
+//     导航顶级页面（浏览器硬件级限制，本脚本的兜底）
+//  ② window.open hook：强制 _blank + noopener，绝不抢占父标签
+//     （用户主动点击广告 → 广告 SDK 调 window.open → 新开标签页跳转）
+//  ③ Location 导航 hook：非用户激活时拦截 assign/replace/href=
+//     （用户主动点击广告后 1500ms 内放行，让广告跳转生效）
+//
+//  设计目标：用户自己点击广告可以新开页面跳走；
+//           但绝不允许广告脚本自动劫持（含 iframe 自身）导航。
+// ============================================================
+(function () {
+  try {
+    // ---- ① window.open hook：强制新标签页，不抢当前页 ----
+    var rawOpen = window.open;
+    if (typeof rawOpen === "function") {
+      window.open = function (url, name, features) {
+        try {
+          if (url && typeof url === "string") {
+            name = "_blank";
+            features = (features || "") +
+              (features ? "," : "") +
+              "noopener,noreferrer";
+          }
+        } catch (e) { /* ignore */ }
+        return rawOpen.call(window, url, name, features);
+      };
+    }
+
+    // ---- ② 用户激活窗口跟踪 ----
+    // 初始为 0：页面加载阶段（无人交互）所有自动导航一律拦截。
+    // 用户 click/touchstart/keydown/pointerdown 后 1500ms 内放行，
+    // 让广告点击产生的跳转正常生效。
+    var lastUserAction = 0;
+    var USER_WINDOW = 1500;
+    ["click", "keydown", "touchstart", "pointerdown", "submit"].forEach(function (evt) {
+      document.addEventListener(evt, function () { lastUserAction = Date.now(); }, true);
+    });
+
+    function blockIfInactive(label, url) {
+      if (typeof url === "string" && (Date.now() - lastUserAction > USER_WINDOW)) {
+        console.warn("[banner-frame] blocked " + label + " (no user action):", url);
+        return true; // 已拦截
+      }
+      return false;
+    }
+
+    // ---- ③ Location 导航 hook ----
+    var proto = window.Location && window.Location.prototype;
+    if (proto) {
+      // ③a assign / replace 方法 hook
+      ["assign", "replace"].forEach(function (fn) {
+        var orig = proto[fn];
+        if (typeof orig !== "function") return;
+        proto[fn] = function (url) {
+          if (blockIfInactive("location." + fn, url)) return;
+          return orig.apply(this, arguments);
+        };
+      });
+
+      // ③b href setter hook（覆盖 location.href = url，最常见的劫持形式）
+      try {
+        var hrefDesc = Object.getOwnPropertyDescriptor(proto, "href");
+        if (hrefDesc && typeof hrefDesc.set === "function") {
+          Object.defineProperty(proto, "href", {
+            get: hrefDesc.get,
+            set: function (url) {
+              if (blockIfInactive("location.href=", url)) return;
+              return hrefDesc.set.call(this, url);
+            },
+            configurable: true,
+            enumerable: true
+          });
+        }
+      } catch (e) { /* 部分浏览器不允许重定义 href —— 降级到 assign/replace hook */ }
+    }
+
+    // ---- ④ window.location / document.location 直接赋值 hook（尽力而为）----
+    // 规范上 window.location 是只读 forbidden 属性，多数浏览器无法重定义；
+    // 能 hook 就 hook，失败则依赖 sandbox 保障顶级页安全。
+    [window, document].forEach(function (host) {
+      try {
+        var locDesc = Object.getOwnPropertyDescriptor(host, "location");
+        if (locDesc && typeof locDesc.set === "function") {
+          Object.defineProperty(host, "location", {
+            get: locDesc.get,
+            set: function (url) {
+              if (blockIfInactive("location=", url)) return;
+              return locDesc.set.call(host, url);
+            },
+            configurable: true
+          });
+        }
+      } catch (e) { /* window.location 通常只读 —— 接受此 gap */ }
+    });
+  } catch (e) {
+    try { console.error("[banner-frame] defense init error:", e); } catch (_) {}
+  }
+})();
+</script>
+<script>
+// ============================================================
+//  广告 SDK 加载器（同步 document.write 模式）
+//
+//  关键修正：
+//  之前用 document.createElement + appendChild 动态注入 invoke.js，
+//  这会让 invoke.js 内部的 document.write 调用清空整个文档流
+//  （因为文档已 finished loading），导致 iframe 空白。
+//
+//  AdSterra 官方接入示例是两个 inline script 标签 (atOptions 配置块
+//  + invoke.js 加载块)，让 invoke.js 在文档解析阶段同步执行，其
+//  document.write 才能正确写入到文档流。
+//
+//  这里只有一个 script 块要读 URL 参数，所以用 document.write 把
+//  第二个 invoke.js script 标签同步写到文档流，复刻官方模式。
+//  注意闭合标签必须写成 <\/script> 否则会提前终止当前脚本块。
+// ============================================================
+(function () {
+  try {
+    var p = new URLSearchParams(location.search);
+    var mode = p.get("mode") || "banner";
+    var invokeSrc = p.get("src") || "";
+
+    if (mode === "native") {
+      // Native Banner：先写 <div id="container-xxx">，再同步加载 SDK
+      var containerId = p.get("containerId");
+      if (containerId) {
+        // 同步写入 container div（成为文档流的一部分）
+        document.write('<div id="' + containerId + '"></div>');
+      }
+      if (invokeSrc) {
+        // 同步写入 invoke.js script tag —— 让 SDK 内部的
+        // document.write 能正确写入文档流
+        document.write('<script src="' + invokeSrc + '" type="text/javascript" data-cfasync="false"><\/script>');
+      }
+    } else {
+      // Banner 模式：先写 atOptions 全局，再同步加载 SDK
+      var key = p.get("key") || "";
+      var format = p.get("format") || "iframe";
+      var height = parseInt(p.get("h"), 10) || 50;
+      var width = parseInt(p.get("w"), 10) || 320;
+
+      window.atOptions = {
+        key: key,
+        format: format,
+        height: height,
+        width: width,
+        params: {}
+      };
+
+      if (invokeSrc) {
+        document.write('<script src="' + invokeSrc + '" type="text/javascript" data-cfasync="false"><\/script>');
+      }
+    }
+
+    // 通知父窗口已加载（调试钩子）
+    try {
+      parent.postMessage({
+        source: "ads-sandbox-frame",
+        event: "loaded",
+        mode: mode
+      }, "*");
+    } catch (e) {}
+  } catch (e) {
+    try {
+      console.error("[banner-frame] init error:", e);
+    } catch (_) {}
+  }
+})();
+</script>
+</body>
+</html>

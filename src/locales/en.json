@@ -1,0 +1,840 @@
+{
+  "site": {
+    "name": "Animal Hospital",
+    "shortName": "Animal Hospital",
+    "tagline": "Fan-Made Community Wiki",
+    "description": "Your complete Animal Hospital Roblox wiki — codes, class tier lists, anomaly guides, item database, and walkthroughs.",
+    "legalNotice": "Non-official fan wiki. Not affiliated with TBD."
+  },
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "tier-list": "Tier List",
+    "classes": "Classes",
+    "builds": "Builds",
+    "home": "Home",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme",
+    "tierList": "Tier List",
+    "units": "Units",
+    "traits": "Traits",
+    "gamepasses": "Gamepasses",
+    "updates": "Updates",
+    "discord": "Discord",
+    "anomalies": "Anomalies",
+    "items": "Items"
+  },
+  "home": {
+    "meta": {
+      "title": "Animal Hospital Wiki — Codes, Classes, Tier List & Anomaly Guide",
+      "description": "Complete Animal Hospital Roblox wiki with latest codes, class tier lists, anomaly guides, item database, and walkthroughs."
+    },
+    "hero": {
+      "eyebrow": "Fan-Made Community Wiki",
+      "title": "Animal Hospital",
+      "description": "A wave-defense zombie survival game on Roblox. Pick your class, gear up with devastating weapons, hold the line against endless undead hordes and outlast every wave to claim victory.",
+      "stats": [
+        "Platform: Roblox",
+        "Genre: Zombie Survival / Wave Defense",
+        "Feature: Class & Weapon Loadout System",
+        "",
+        ""
+      ],
+      "primaryCta": "Start Beginner Guide",
+      "secondaryCta": "View Tier List",
+      "tertiaryCta": "Check Active Codes",
+      "videoLabel": "Official Trailer"
+    },
+    "updates": {
+      "title": "Latest Updates",
+      "browse": "Browse All Guides",
+      "viewAll": "View All"
+    },
+    "start": {
+      "eyebrow": "Start Here",
+      "title": "Your Survival Journey",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Beginner Guide",
+          "description": ""
+        },
+        {
+          "number": "2",
+          "title": "Weapons Guide",
+          "description": ""
+        },
+        {
+          "number": "3",
+          "title": "Active Codes",
+          "description": ""
+        },
+        {
+          "number": "4",
+          "title": "Class Tier List",
+          "description": ""
+        }
+      ]
+    },
+    "explore": {
+      "eyebrow": "Explore",
+      "title": "Explore Animal Hospital",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Animal Hospital Codes",
+          "description": "All currently working Animal Hospital codes in one place. Redeem them in-game for free Coins, Cash, XP boosts, and exclusive weapons to help you hold the arena through later waves. Codes are time-limited and drop alongside milestones and updates, so check back often.",
+          "href": "/codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "RELEASE",
+              "detail": "500 Coins + 1,000 Cash (launch celebration code)",
+              "badge": "New"
+            },
+            {
+              "label": "UPDATE2",
+              "detail": "750 Coins and a 15-minute 2x XP boost",
+              "badge": "New"
+            },
+            {
+              "label": "1KLIKES",
+              "detail": "1,000 Cash + free Pistol Mk2 starter weapon",
+              "badge": "Active"
+            },
+            {
+              "label": "5KLIKES",
+              "detail": "2,500 Coins + 2x Coins boost (10 minutes)",
+              "badge": "Active"
+            },
+            {
+              "label": "WAVE10",
+              "detail": "1,500 Coins for reaching the wave-10 milestone",
+              "badge": "Active"
+            },
+            {
+              "label": "SUBTODEV",
+              "detail": "800 Cash + exclusive Medic Class unlock",
+              "badge": "Active"
+            },
+            {
+              "label": "ZOMBIESLAYER",
+              "detail": "2,000 Coins + 2x Damage boost (5 minutes)",
+              "badge": "Active"
+            },
+            {
+              "label": "SUMMER",
+              "detail": "1,200 Coins + 500 Cash (seasonal code)",
+              "badge": "Active"
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
+            "https://progameguides.com/roblox/",
+            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+codes"
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Animal Hospital Tier List",
+          "description": "Animal Hospital weapon and class tier list ranked from S to D based on damage output, crowd control, ammo efficiency, and boss performance. Find the strongest loadouts for holding late waves and which weapons to spend your Coins on first.",
+          "href": "/tier-list",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Minigun, Rocket Launcher, Flamethrower — top-tier DPS and AoE clear that shred horde waves and melt bosses; highest priority investments."
+            },
+            {
+              "label": "A",
+              "detail": "LMG, Combat Shotgun, Sniper Rifle — reliable burst and sustained damage; the backbone of any solid mid-to-late loadout."
+            },
+            {
+              "label": "B",
+              "detail": "Assault Rifle, SMG, Dual Pistols — balanced all-rounders that carry early-to-mid waves with good ammo economy."
+            },
+            {
+              "label": "C",
+              "detail": "Pump Shotgun, Revolver, Crossbow — situational picks; strong in narrow corridors but fall off against fast hordes."
+            },
+            {
+              "label": "D",
+              "detail": "Baseball Bat, Starter Pistol, Knife — last-resort and early-game fillers; replace as soon as Coins allow."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
+            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+tier+list+best+weapons",
+            "https://progameguides.com/roblox/"
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Animal Hospital Best Weapons and Classes",
+          "description": "A roster overview of the strongest weapons and classes in Animal Hospital. Compare the top picks for horde clear, boss damage, and support so you can build the right loadout for each wave bracket and playstyle.",
+          "href": "/best-weapons-and-classes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Minigun",
+              "detail": "Highest sustained DPS in the game — mows down entire waves but burns Cash fast; pair with the Heavy class for max ammo."
+            },
+            {
+              "label": "Rocket Launcher",
+              "detail": "Best AoE burst for clustered hordes and boss phases; limited ammo means use it on dense groups or elite zombies."
+            },
+            {
+              "label": "Sniper Rifle",
+              "detail": "One-shot headshot potential on most zombies; ideal for picking off Brutes and Spitters from range before they close in."
+            },
+            {
+              "label": "Combat Shotgun",
+              "detail": "Excellent close-range stopping power; perfect for holding doorways and choke points during swarm waves."
+            },
+            {
+              "label": "Heavy Class",
+              "detail": "Bonus ammo capacity and reload speed; turns LMG and Minigun into unstoppable horde-clearing machines."
+            },
+            {
+              "label": "Medic Class",
+              "detail": "Heals nearby teammates and regenerates health; essential for co-op survival on high waves."
+            },
+            {
+              "label": "Scout Class",
+              "detail": "Increased movement speed and reload speed; best for kiting fast zombies and repositioning during boss fights."
+            },
+            {
+              "label": "Engineer Class",
+              "detail": "Deploys barricades and turrets; strong for fortifying a defensive position and buying time on endless waves."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
+            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+best+weapons+classes",
+            "https://progameguides.com/roblox/"
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Animal Hospital Beginner Guide",
+          "description": "Step-by-step walkthrough for new Animal Hospital players. Learn how to redeem codes, buy your first weapon, manage Coins and Cash, pick the right class, and survive your first boss wave without wasting resources.",
+          "href": "/beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Launch Animal Hospital from the official Roblox page and join a match in the arena lobby."
+            },
+            {
+              "label": "2",
+              "detail": "Redeem every active code from the Codes menu to stock up on free Coins, Cash, and a starter weapon before wave 1."
+            },
+            {
+              "label": "3",
+              "detail": "Pick a class that fits your role — Scout for solo kiting, Medic for team support, or Heavy for raw firepower."
+            },
+            {
+              "label": "4",
+              "detail": "Spend your starting Cash on an Assault Rifle or SMG; never face the first wave with only the starter pistol."
+            },
+            {
+              "label": "5",
+              "detail": "Earn Coins from each kill and surviving each wave, then upgrade to a Combat Shotgun or Sniper Rifle as you progress."
+            },
+            {
+              "label": "6",
+              "detail": "Stay near a choke point or wall to avoid being surrounded, and save Coins for a boss wave every 5 waves."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
+            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+beginner+guide+how+to+play",
+            "https://progameguides.com/roblox/"
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Animal Hospital Wave Guide",
+          "description": "Complete wave-by-wave progression guide for Animal Hospital. Covers enemy types that appear in each wave bracket, when special zombies spawn, boss wave timing, and the recommended weapons and positioning for each phase.",
+          "href": "/wave-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Waves 1–4",
+              "detail": "Basic Walkers only — slow and weak. Use the starter SMG or Assault Rifle to conserve Coins for later upgrades."
+            },
+            {
+              "label": "Waves 5–9",
+              "detail": "Runners and Shamblers appear; faster enemies require tighter aim and a Combat Shotgun for close-range bursts."
+            },
+            {
+              "label": "Wave 5 Boss",
+              "detail": "First boss spawns — a Brute with heavy armor. Switch to high single-target damage like the Sniper Rifle."
+            },
+            {
+              "label": "Waves 10–14",
+              "detail": "Exploders and Spitters join the horde; keep distance from Exploders and prioritize Spitters that damage from range."
+            },
+            {
+              "label": "Wave 10 Boss",
+              "detail": "Mini-boss wave with a Tank plus a runner escort — clear the escort first, then focus fire the Tank."
+            },
+            {
+              "label": "Waves 15–19",
+              "detail": "Armored zombies and mixed elite spawns; switch to AoE weapons like the LMG or Flamethrower to handle density."
+            },
+            {
+              "label": "Wave 20+",
+              "detail": "Endless-mode scaling begins — enemy health and speed ramp up. Invest in the Minigun and coordinate with your team."
+            },
+            {
+              "label": "Every 5th Wave",
+              "detail": "Boss waves always hit on multiples of 5; stockpile Coins and ammo before each one to survive the spike."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
+            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+waves+enemies+guide",
+            "https://progameguides.com/roblox/"
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Animal Hospital Boss Guide",
+          "description": "Strategy guide for every boss in Animal Hospital. Learn boss attack patterns, weak points, the best weapons to counter each one, and class-based tactics for surviving boss waves solo or in co-op.",
+          "href": "/boss-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "The Brute",
+              "detail": "Wave 5 boss — heavily armored and slow. Kite it while landing Sniper headshots; never let it corner you."
+            },
+            {
+              "label": "The Tank",
+              "detail": "Wave 10 boss — huge health pool and a ground-slam AoE. Keep your distance and chip it down with the LMG."
+            },
+            {
+              "label": "The Spitter Queen",
+              "detail": "Wave 15 boss — ranged acid attacks plus a runner escort. Kill the escort first, then close in with a Combat Shotgun."
+            },
+            {
+              "label": "The Exploder King",
+              "detail": "Wave 20 boss — charges and detonates on contact. Bait its charge, dodge sideways, and punish with the Rocket Launcher."
+            },
+            {
+              "label": "The Hive Mind",
+              "detail": "Endless-mode mega-boss — spawns minions constantly. Use the Flamethrower to clear adds while DPS focus the boss."
+            },
+            {
+              "label": "Boss Weak Points",
+              "detail": "Most bosses have a head weak spot taking bonus damage; aim down sights with a Sniper for maximum burst."
+            },
+            {
+              "label": "Class Roles vs Bosses",
+              "detail": "Heavy handles sustained DPS, Medic keeps the team alive, Scout kites and revives, Engineer drops turrets for extra fire."
+            },
+            {
+              "label": "Survival Tip",
+              "detail": "Always pre-buy ammo and a reload-boost item before a boss wave — running dry mid-fight is the #1 cause of boss-wave wipes."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
+            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+boss+strategy",
+            "https://progameguides.com/roblox/"
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Animal Hospital Tips and Tricks",
+          "description": "Proven strategies to survive longer and rank higher in Animal Hospital. Covers economy management, positioning, ammo discipline, team coordination, and loadout timing for every phase of the match.",
+          "href": "/tips-and-tricks",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Redeem every active code before your first match to start with a real weapon instead of the starter pistol."
+            },
+            {
+              "label": "2",
+              "detail": "Always hold a choke point or doorway — funneling zombies into a line makes any weapon far more efficient."
+            },
+            {
+              "label": "3",
+              "detail": "Never spend all your Coins at once; save at least 50% for an emergency upgrade before boss waves."
+            },
+            {
+              "label": "4",
+              "detail": "Prioritize Exploders and Spitters over Walkers — they deal the most damage if left alive."
+            },
+            {
+              "label": "5",
+              "detail": "Use XP and Coin boost codes right before a long session to maximize the multiplier on every kill."
+            },
+            {
+              "label": "6",
+              "detail": "In co-op, assign roles early — one Medic, one Heavy DPS, and one Scout to kite and revive keeps the team balanced."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
+            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+tips+tricks+how+to+win",
+            "https://progameguides.com/roblox/"
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Animal Hospital Update Log",
+          "description": "Track the latest Animal Hospital patches, new weapons, class reworks, balance changes, and seasonal events. Stay ahead of the meta and never miss a new code drop or limited-time reward.",
+          "href": "/update-log",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Launch Update",
+              "detail": "Animal Hospital officially released on Roblox with 20+ waves, 8 weapons, and 4 playable classes."
+            },
+            {
+              "label": "Update 2 — New Weapons",
+              "detail": "Added the Minigun and Rocket Launcher, plus a Wave-10 Tank boss encounter."
+            },
+            {
+              "label": "Balance Pass",
+              "detail": "Sniper Rifle headshot damage increased; Combat Shotgun pellet spread tightened for better consistency."
+            },
+            {
+              "label": "New Class: Engineer",
+              "detail": "Introduced the Engineer class with deployable barricades and turrets for defensive playstyles."
+            },
+            {
+              "label": "Endless Mode",
+              "detail": "Wave 20+ now scales infinitely with a dedicated leaderboard for top survivors."
+            },
+            {
+              "label": "Summer Event",
+              "detail": "Limited-time seasonal event with exclusive codes, a special Hive Mind mega-boss, and cosmetic rewards."
+            },
+            {
+              "label": "Co-op Improvements",
+              "detail": "Expanded to support larger squads, added a revive system, and reworked Medic healing radius."
+            },
+            {
+              "label": "Next Roadmap",
+              "detail": "Devs tease new maps, additional boss variants, and a weapon-skin system in upcoming patches."
+            }
+          ],
+          "references": [
+            "https://www.roblox.com/games/114204398207377/Survive-Zombie-Arena",
+            "https://www.roblox.com/discover",
+            "https://www.youtube.com/results?search_query=survive+zombie+arena+roblox+update+patch+notes"
+          ]
+        }
+      ],
+      "description": "Jump straight to the eight homepage sections and scroll to the module you need."
+    },
+    "popular": {
+      "eyebrow": "Popular Pages",
+      "title": "Trending Now",
+      "quickLinks": [
+        "Codes",
+        "Guide",
+        "Tier List",
+        "Classes"
+      ],
+      "cards": [
+        {
+          "badge": "Popular",
+          "title": "Codes",
+          "description": "codes",
+          "href": "/codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "Guide",
+          "description": "guide",
+          "href": "/guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Tier List",
+          "description": "tier list",
+          "href": "/tier-list"
+        },
+        {
+          "badge": "Popular",
+          "title": "Classes",
+          "description": "classes",
+          "href": "/classes"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "What is Animal Hospital?",
+      "paragraphs": [
+        "",
+        ""
+      ],
+      "stats": [
+        {
+          "label": "Developer",
+          "value": ""
+        },
+        {
+          "label": "Platform",
+          "value": "Roblox"
+        },
+        {
+          "label": "Genre",
+          "value": "Zombie Survival / Wave Defense"
+        },
+        {
+          "label": "Visits",
+          "value": ""
+        },
+        {
+          "label": "Favorites",
+          "value": ""
+        }
+      ],
+      "cta": "Explore All Guides"
+    },
+    "finalCta": {
+      "title": "Ready to Survive the Apocalypse?",
+      "description": "",
+      "primary": "Read the Beginner Guide",
+      "secondary": "Play on Roblox"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Quick answers to the most common questions about Animal Hospital.",
+      "items": [
+        {
+          "question": "What is Animal Hospital?",
+          "answer": "Animal Hospital is an anime-themed lane-battler tower defense on Roblox, developed by TBD. Players summon collectible anime heroes, deploy them along the lane to defend against waves of enemies, and progress through Story, Squadron and Challenge modes. It fully launched on June 13, 2026."
+        },
+        {
+          "question": "Which units should beginners summon first?",
+          "answer": "Prioritize one DPS carry and one Farm unit from your first 10-pull. DPS units clear waves and bosses, while Farm units keep your Yen economy flowing so you can afford upgrades on later waves. Avoid sinking resources into low-rarity tanks until you have a solid carry online."
+        },
+        {
+          "question": "Where do I find active codes?",
+          "answer": "Use the Codes page for the full list of working codes, rewards, expiration notes, and a step-by-step redemption walkthrough. The Codes button unlocks at Level 10 — new codes drop around CCU and likes milestones, so check back weekly."
+        },
+        {
+          "question": "What are Secret Units?",
+          "answer": "Secret Units are ultra-rare (≈0.1% pull rate) anime heroes that sit at the top of every tier list. They drop from the dedicated Secret stage rotation and from the summon banner. They define the meta — if you pull one, invest Trait Rerolls and Perfect Cubes into it immediately."
+        },
+        {
+          "question": "Is Animal Hospital free to play?",
+          "answer": "Yes — Animal Hospital is free to play on Roblox across mobile, PC, console and VR. Optional cosmetics, gamepasses and boosts are available through Robux, but you can also get free Gems, Trait Rerolls and Stat Cubes by redeeming active codes."
+        }
+      ]
+    },
+    "heroTitle": "Animal Hospital Wiki",
+    "heroSubtitle": "The ultimate resource for Animal Hospital on Roblox — codes, classes, anomalies, and more."
+  },
+  "footer": {
+    "aboutTitle": "Animal Hospital Wiki",
+    "about": "",
+    "description": "Fan-made wiki for Roblox Animal Hospital wave-defense survival game.",
+    "playGame": "Play Animal Hospital",
+    "officialDiscord": "Official Discord",
+    "officialYoutube": "Official YouTube",
+    "communityTool": "Class Tier List",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© 2026 Animal Hospital Wiki. Not affiliated with TBD.",
+    "quickLinks": "Quick Links",
+    "guides": "Guides",
+    "legal": "Legal",
+    "beginnerGuide": "Beginner Guide",
+    "tipsGuide": "Weapons Guide",
+    "controlsGuide": "Classes",
+    "unitsGuide": "Loadouts",
+    "contact": "Contact"
+  },
+  "shared": {
+    "wikiNavigation": "Wiki Navigation",
+    "activeCodes": "Active Codes",
+    "viewAllCodes": "View all codes",
+    "home": "Home",
+    "readMore": "Read more",
+    "noGuidesAvailable": "No articles available yet. Check back soon!",
+    "updated": "Updated",
+    "playOnRoblox": "Play on Roblox",
+    "inThisSection": "In this section",
+    "tableOfContents": "Table of Contents",
+    "nextSteps": "Next Steps",
+    "needHelp": "Need Help?",
+    "relatedReading": "Related Reading",
+    "relatedGuides": "Related Guides",
+    "officialMedia": "Official Media"
+  },
+  "sidebarCodes": [],
+  "metadata": {
+    "title": "Animal Hospital Wiki — Codes, Classes, Tier List & Anomaly Guide",
+    "description": "Complete Animal Hospital Roblox wiki with latest codes, class tier lists, anomaly guides, item database, and walkthroughs.",
+    "keywords": "animal hospital wiki, roblox, codes, weapons, classes, tier list, waves, enemies, maps, loadouts, beginner guide, zombie survival, wave defense"
+  },
+  "codes": {
+    "overviewTitle": "Codes",
+    "overviewDescription": "All working Animal Hospital codes in one place — free Gems, Trait Rerolls, Stat Cubes, Perfect Cubes and Zeni. Redeem them fast, because the developer cycles codes out around CCU and likes milestones.",
+    "title": "Animal Hospital Codes"
+  },
+  "tier-list": {
+    "overviewTitle": "Tier List",
+    "overviewDescription": "Community-ranked Animal Hospital unit tier list — S to D across DPS, Support, Tank and Farm roles. Find the strongest Secret Units, the best mythic carries, and which units are worth your Trait Rerolls and Stat Cubes.",
+    "title": "Tier Lists"
+  },
+  "guide": {
+    "overviewTitle": "Guides",
+    "overviewDescription": "In-depth Animal Hospital guides — beginner walkthrough, controls reference, tips and tricks, code redemption walkthrough, and everything you need to dominate Story, Squadron and Challenge modes.",
+    "title": "Guides"
+  },
+  "updates": {
+    "overviewTitle": "Updates",
+    "overviewDescription": "Stay on top of every Animal Hospital update — new patches, balance changes, fresh Secret Unit drops, event rotations and the evolving meta across Story, Squadron and Challenge modes."
+  },
+  "legal": {
+    "contact": {
+      "title": "Contact Us",
+      "metaDescription": "Contact Animal Hospital Wiki — reach out for questions, feedback, corrections, or business inquiries.",
+      "email": "liuz06509@gmail.com",
+      "sections": [
+        {
+          "heading": "Get in Touch",
+          "paragraphs": [
+            "We welcome questions, feedback, corrections, and business inquiries. Whether you spotted an outdated code, found a typo in a unit guide, or want to suggest new content for Animal Hospital Wiki, we'd love to hear from you."
+          ]
+        },
+        {
+          "heading": "Email Us",
+          "paragraphs": [
+            "For all inquiries, please email us at: <a href=\"mailto:{email}\" class=\"font-semibold text-foreground hover:underline\">{email}</a>",
+            "We typically respond within 48 hours. When reporting an issue with a code or guide, please include the specific page URL and a brief description of the problem."
+          ]
+        },
+        {
+          "heading": "What We Can Help With",
+          "paragraphs": [
+            "Expired or non-working codes that need updating",
+            "Incorrect unit stats, tier list rankings, or evolution paths",
+            "Suggestions for new guides, traits, or gamepass reviews",
+            "Bug reports or broken links on the site",
+            "Business or partnership inquiries"
+          ]
+        },
+        {
+          "heading": "Connect with the Community",
+          "paragraphs": [
+            "For game-specific discussions, we recommend joining the official Animal Hospital Discord or visiting the Roblox game page. Our wiki complements these community resources with curated guides and regularly updated content."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "metaDescription": "Privacy Policy for Animal Hospital Wiki — how we collect, use, and protect your data, including cookies, Google AdSense, and third-party advertising.",
+      "lastUpdated": "Last updated: June 2026",
+      "sections": [
+        {
+          "heading": "1. Introduction",
+          "paragraphs": [
+            "Animal Hospital Wiki (\"we\", \"us\", or \"our\") operates the website https://animesquadron.games (the \"Site\"). This Privacy Policy explains what information we collect, how we use it, and the choices you have.",
+            "By using this Site, you agree to the practices described in this Privacy Policy. This Site is an independent fan-made wiki and is not affiliated with Roblox Corporation, TBD, or any anime franchise referenced in the game."
+          ]
+        },
+        {
+          "heading": "2. Information We Collect",
+          "paragraphs": [
+            "We collect minimal information necessary to provide and improve our content:",
+            "Automatically collected data: When you visit our Site, our hosting provider and analytics tools may automatically record your IP address (or a truncated version), browser type, device type, approximate geographic region (country-level), pages visited, referring URL, and time spent on pages.",
+            "Information you provide: We do not require registration or account creation. If you contact us via email, we will receive the email address and content of your message."
+          ]
+        },
+        {
+          "heading": "3. Cookies and Similar Technologies",
+          "paragraphs": [
+            "Cookies are small text files stored on your device. We and our third-party partners use cookies and similar technologies (such as web beacons and local storage) for the following purposes:",
+            "Essential cookies: Necessary for the basic functioning of the website (e.g., remembering your language preference).",
+            "Analytics cookies: Help us understand how visitors use the Site so we can improve content and performance.",
+            "Advertising cookies: Used by Google AdSense and other advertising networks to display relevant ads and measure ad performance. See Section 4 for details.",
+            "You can control or disable cookies through your browser settings. However, disabling cookies may affect some features of the Site."
+          ]
+        },
+        {
+          "heading": "4. Google AdSense and Third-Party Advertising",
+          "paragraphs": [
+            "We display advertisements through Google AdSense and other advertising networks (such as AdSterra) to support the ongoing maintenance and development of this Site.",
+            "Google AdSense: Third-party vendors, including Google, use cookies to serve ads based on a user's prior visits to this and other websites. Google's use of advertising cookies enables it and its partners to serve ads to our users based on their visit to our Site and/or other sites on the Internet.",
+            "Users may opt out of Google's use of personalized advertising by visiting Google Ads Settings (https://www.google.com/settings/ads). Users may also opt out of third-party vendors' use of cookies for personalized advertising by visiting www.aboutads.info/choices.",
+            "Other advertising networks: We may partner with additional ad networks. These partners may also use cookies and similar technologies to serve and measure ads. Each partner has its own privacy policy governing data collection and use."
+          ]
+        },
+        {
+          "heading": "5. Third-Party Services",
+          "paragraphs": [
+            "We use the following third-party services that may process your data:",
+            "Google AdSense and Google Analytics: For advertising and website analytics. See Google's Privacy Policy (https://policies.google.com/privacy).",
+            "Cloudflare: For content delivery network (CDN) and security services. See Cloudflare's Privacy Policy (https://www.cloudflare.com/privacypolicy/).",
+            "Roblox: External links may lead to Roblox.com, which is governed by Roblox's own Privacy Policy.",
+            "Discord and YouTube: External links to our community Discord and YouTube channel are governed by their respective privacy policies.",
+            "We are not responsible for the privacy practices of these third-party services. We encourage you to review their privacy policies."
+          ]
+        },
+        {
+          "heading": "6. Data Retention",
+          "paragraphs": [
+            "We retain automatically collected analytics data for up to 24 months. Email correspondence from contact inquiries is retained for as long as necessary to respond to and resolve your inquiry, typically up to 12 months.",
+            "Advertising networks may retain data according to their own retention policies. Please consult their respective privacy policies for details."
+          ]
+        },
+        {
+          "heading": "7. Your Rights and Choices",
+          "paragraphs": [
+            "Depending on your location, you may have the following rights regarding your personal data:",
+            "Access and portability: You can request a copy of the personal data we hold about you.",
+            "Correction and deletion: You can request that we correct inaccurate data or delete your personal data.",
+            "Opt-out of personalized advertising: To opt out of personalized advertising from Google and other providers, you can: visit https://www.google.com/settings/ads to manage Google ad settings; use the \"Do Not Track\" feature in your browser; or contact us using the information on our Contact page.",
+            "To exercise any of these rights, please contact us at the email provided on our Contact page."
+          ]
+        },
+        {
+          "heading": "8. Children's Privacy (COPPA)",
+          "paragraphs": [
+            "This Site is directed at a general audience and does not knowingly collect personal information from children under 13. Animal Hospital is a game on the Roblox platform which has its own safety measures for younger users.",
+            "If you believe a child has provided us with personal information, please contact us so we can take appropriate action to delete such information."
+          ]
+        },
+        {
+          "heading": "9. GDPR (European Economic Area and UK)",
+          "paragraphs": [
+            "If you are located in the European Economic Area (EEA) or the United Kingdom, you have certain rights under the General Data Protection Regulation (GDPR) and the UK GDPR, including the right to access, rectify, erase, restrict processing, and port your personal data.",
+            "Our lawful basis for processing your data is legitimate interest (providing and improving the website) and consent (for non-essential cookies and personalized advertising).",
+            "To exercise your GDPR rights, please contact us through our Contact page. We will respond within one month of receiving your request."
+          ]
+        },
+        {
+          "heading": "10. CCPA (California Residents)",
+          "paragraphs": [
+            "Under the California Consumer Privacy Act (CCPA), California residents have the right to know what personal information is collected, request deletion, and opt out of the sale of personal information. We do not sell personal information.",
+            "To exercise your rights under CCPA, contact us through our Contact page."
+          ]
+        },
+        {
+          "heading": "11. Changes to This Privacy Policy",
+          "paragraphs": [
+            "We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date. We encourage you to review this page periodically."
+          ]
+        },
+        {
+          "heading": "12. Contact Us",
+          "paragraphs": [
+            "If you have any questions about this Privacy Policy, please contact us through our Contact page or email us directly."
+          ]
+        }
+      ]
+    },
+    "about": {
+      "title": "About Animal Hospital Wiki",
+      "metaDescription": "About Animal Hospital Wiki — an independent fan community site for Roblox Animal Hospital with codes, tier lists, unit guides, and more.",
+      "sections": [
+        {
+          "heading": "What Is Animal Hospital Wiki?",
+          "paragraphs": [
+            "Animal Hospital Wiki is an independent fan-made community site dedicated to the Roblox anime tower defense game Animal Hospital by TBD. Our mission is to provide accurate, up-to-date information to help players of all skill levels get the most out of the game.",
+            "We cover the latest codes, comprehensive unit tier lists, evolution paths, trait explanations, gamepass reviews, and update breakdowns. Whether you're a new player figuring out your first summon or a veteran optimizing your wave defense strategy, our guides are designed to help you succeed."
+          ]
+        },
+        {
+          "heading": "Our Content",
+          "paragraphs": [
+            "All content on this site is independently created and maintained by fans. We do not claim any affiliation with Roblox Corporation, TBD, or any anime franchise referenced in the game.",
+            "Game information such as unit stats, codes, and update details can change frequently. We strive to keep our content current, but always verify critical information in-game or through official channels."
+          ]
+        },
+        {
+          "heading": "Community",
+          "paragraphs": [
+            "We believe in the power of community. Our wiki complements the official Animal Hospital Discord and Roblox game page by providing structured, searchable guides. We welcome feedback, corrections, and suggestions from fellow players.",
+            "If you spot an error or have an idea for new content, please reach out through our Contact page."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "metaDescription": "Terms of Service for Animal Hospital Wiki — acceptable use, disclaimers, and limitations of liability.",
+      "lastUpdated": "Last updated: June 2026",
+      "sections": [
+        {
+          "heading": "1. Acceptance of Terms",
+          "paragraphs": [
+            "By accessing and using Animal Hospital Wiki (https://animesquadron.games), you accept and agree to be bound by these Terms of Service. If you do not agree with any part of these terms, please do not use our Site."
+          ]
+        },
+        {
+          "heading": "2. Use of the Site",
+          "paragraphs": [
+            "This Site provides informational game guides, codes, tier lists, and community resources for Animal Hospital, a Roblox game by TBD. Content is provided for informational and entertainment purposes only.",
+            "You agree not to misuse the Site, attempt unauthorized access, scrape content at excessive rates, or present this fan wiki as an official Roblox, TBD, or anime franchise property."
+          ]
+        },
+        {
+          "heading": "3. Intellectual Property",
+          "paragraphs": [
+            "All original content on this Site, including articles, guides, tier lists, and design elements, is created by our team and protected by applicable copyright laws. Game names, unit names, images, and other trademarks belong to their respective owners, including Roblox Corporation and TBD.",
+            "This Site is a fan-made resource and does not claim any ownership over the game or its assets."
+          ]
+        },
+        {
+          "heading": "4. Third-Party Links",
+          "paragraphs": [
+            "Our Site contains links to external websites, including Roblox.com, Discord, YouTube, and advertising networks. We are not responsible for the content, privacy policies, or practices of these third-party sites."
+          ]
+        },
+        {
+          "heading": "5. Disclaimer of Warranties",
+          "paragraphs": [
+            "Game systems, codes, unit stats, and update details may change without notice. Content on this Site is provided \"as is\" without warranties of any kind. Always verify important information in-game or through official channels."
+          ]
+        },
+        {
+          "heading": "6. Limitation of Liability",
+          "paragraphs": [
+            "Animal Hospital Wiki shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising from your use of, or inability to use, this Site."
+          ]
+        },
+        {
+          "heading": "7. Changes to These Terms",
+          "paragraphs": [
+            "We may update these Terms of Service at any time. Changes will be posted on this page with an updated revision date. Continued use of the Site after changes constitutes acceptance of the revised terms."
+          ]
+        },
+        {
+          "heading": "8. Contact Us",
+          "paragraphs": [
+            "If you have any questions about these Terms of Service, please contact us through our Contact page."
+          ]
+        }
+      ]
+    }
+  },
+  "classes": {
+    "overviewTitle": "Classes — Animal Hospital Wiki",
+    "overviewDescription": "Browse all classes guides for Animal Hospital.",
+    "title": "Classes"
+  },
+  "builds": {
+    "overviewTitle": "Builds — Animal Hospital Wiki",
+    "overviewDescription": "Browse all builds guides for Animal Hospital.",
+    "title": "Builds"
+  },
+  "anomalies": {
+    "title": "Anomalies",
+    "description": "All anomaly entities in Animal Hospital"
+  },
+  "items": {
+    "title": "Items",
+    "description": "Complete item database for Animal Hospital"
+  }
+}

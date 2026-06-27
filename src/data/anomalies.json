@@ -1,0 +1,347 @@
+{
+  "_source": "IGN Wiki, Eurogamer, animal-hospital.me English Wiki, Fandom Wiki (search snippet)",
+  "_scraped_at": "2026-06-28T12:00:00+08:00",
+  "game": "Animal Hospital (Anomaly)",
+  "platform": "Roblox",
+  "total_anomalies": 31,
+  "summary": "Anomalies are disguised monsters mixed in with regular animal patients. They can be identified by appearance, photo anomalies, CCTV footage, or by encountering monsters roaming the hospital. There are three main identification methods: Appearance (visual inspection), Photo (check polaroid), and CCTV (check surveillance cameras).",
+  "categories": {
+    "appearance_anomalies": "Visible by looking directly at the patient at the reception desk. No need to check camera or photo.",
+    "photo_anomalies": "Not visible in person. Show up only in the patient's polaroid photo. Some cursed photos drain 10 sanity if picked up.",
+    "cctv_anomalies": "Not visible in person or photo. Only visible on CCTV surveillance cameras.",
+    "monsters": "Hazards and threats that roam the hospital corridors and patient rooms."
+  },
+  "appearance_anomalies": [
+    {
+      "id": "twitching",
+      "name": "Twitching / Limb Spasms",
+      "category": "appearance",
+      "detection_method": "Visual inspection",
+      "description": "Patient exhibits erratic twitching, mainly in arms and neck area. Jerks limbs around in sporadic movements. Can be very quick - watch for at least 4-5 seconds to confirm.",
+      "how_to_handle": "Close the shutter immediately. No need to check camera or photo.",
+      "difficulty": "Medium",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "three_eyes",
+      "name": "Three Eyes",
+      "category": "appearance",
+      "detection_method": "Visual inspection",
+      "description": "Patient has three glowing red eyes instead of the regular two. One of the most obvious appearance anomalies.",
+      "how_to_handle": "Close the shutter immediately.",
+      "difficulty": "Easy",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "hollow_face",
+      "name": "Hollow Face / Hollow Patient",
+      "category": "appearance",
+      "detection_method": "Visual inspection (also visible on CCTV)",
+      "description": "Patient has two empty holes in place of eyes and a wide-open, frowning mouth. Can also appear on CCTV cameras.",
+      "how_to_handle": "Close the shutters. Do not let them inside.",
+      "difficulty": "Easy",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "wide_eyes_creepy_smile",
+      "name": "Wide Eyes and Creepy Smile / Big Teeth",
+      "category": "appearance",
+      "detection_method": "Visual inspection",
+      "description": "Patient has large, wide eyes and a creepy smile with clenched teeth. They look evil from the start.",
+      "how_to_handle": "Close the shutters immediately.",
+      "difficulty": "Easy",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "human_teeth",
+      "name": "Human Teeth",
+      "category": "appearance",
+      "detection_method": "Visual inspection",
+      "description": "Patient has a set of human chompers instead of normal animal teeth. Similar to wide eyes and sharp teeth anomalies.",
+      "how_to_handle": "Close the shutters straight away.",
+      "difficulty": "Easy",
+      "source": "IGN"
+    },
+    {
+      "id": "mismatched_eyes_sharp_teeth",
+      "name": "Mismatched Eyes and Sharp Teeth / Poorly Drawn Patient",
+      "category": "appearance",
+      "detection_method": "Visual inspection",
+      "description": "Patient has eyes sitting at different heights and sharp teeth through a menacing grin. Eurogamer also describes a 'poorly drawn' variant with hand-drawn, misproportioned eyes and a large mouth with crooked teeth.",
+      "how_to_handle": "Close the shutter.",
+      "difficulty": "Medium",
+      "source": "IGN, Eurogamer"
+    }
+  ],
+  "photo_anomalies": [
+    {
+      "id": "different_eyes",
+      "name": "Different Eyes (Photo)",
+      "category": "photo",
+      "detection_method": "Photo inspection",
+      "description": "Patient has different eyes in their photo than they do in person. Can be subtle - different eyelids, pupils, etc.",
+      "how_to_handle": "Wait for the photo to develop on the desk. If it looks odd, close the shutters before picking it up.",
+      "difficulty": "Hard",
+      "source": "IGN"
+    },
+    {
+      "id": "different_ears",
+      "name": "Different Ears (Photo)",
+      "category": "photo",
+      "detection_method": "Photo inspection",
+      "description": "Patient has different ears in their photo. More obvious than some eye differences but still requires careful checking.",
+      "how_to_handle": "Close the shutters if the photo doesn't match the patient.",
+      "difficulty": "Medium",
+      "source": "IGN"
+    },
+    {
+      "id": "incorrect_photo",
+      "name": "Incorrect Photo",
+      "category": "photo",
+      "detection_method": "Photo inspection",
+      "description": "Photo shows a completely different character model - different colors, markings, or even a different animal entirely.",
+      "how_to_handle": "Close the shutters immediately.",
+      "difficulty": "Easy",
+      "source": "IGN"
+    },
+    {
+      "id": "unnatural_photo",
+      "name": "Unnatural Photo",
+      "category": "photo",
+      "detection_method": "Photo inspection",
+      "description": "Photo shows grotesque facial expressions that the patient does not have - human tooth expression, uneven eyes, toothy grin, or blurred picture.",
+      "how_to_handle": "Close the shutters as soon as you see this.",
+      "difficulty": "Easy",
+      "source": "IGN"
+    },
+    {
+      "id": "static_photo",
+      "name": "Static Photo",
+      "category": "photo",
+      "detection_method": "Photo inspection",
+      "description": "Photo has a staticky film on top that obscures the picture. A sign of an anomaly.",
+      "how_to_handle": "Close the shutters on them.",
+      "difficulty": "Easy",
+      "source": "IGN"
+    },
+    {
+      "id": "cursed_photo",
+      "name": "Cursed Photo",
+      "category": "photo",
+      "detection_method": "Photo inspection",
+      "description": "Photo shows bloodshot eyes, grotesque smile, or blurred features. Looking at these pictures costs you sanity. Covers a wide variety of anomalies.",
+      "how_to_handle": "Observe photos on the desk before picking them up to avoid sanity damage. Close shutters if the picture doesn't match 1:1.",
+      "difficulty": "Medium",
+      "source": "IGN, Eurogamer"
+    }
+  ],
+  "cctv_anomalies": [
+    {
+      "id": "censored_eyes",
+      "name": "Censored Eyes / JPEG Eyes",
+      "category": "cctv",
+      "detection_method": "CCTV inspection",
+      "description": "Character has a big black rectangle covering their eyes with another pair of eyes drawn on top (IGN) / A JPEG of white eyes on a black background overlaid on the patient, staring into the camera (Eurogamer).",
+      "how_to_handle": "Close the shutter.",
+      "difficulty": "Easy",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "unnatural_body",
+      "name": "Unnatural Body / Limb Stretching",
+      "category": "cctv",
+      "detection_method": "CCTV inspection",
+      "description": "Patient has an elongated or otherwise unnatural body on CCTV. Limbs stretched and often fully detached. Can be very long, tall, or wide with limbs at strange angles.",
+      "how_to_handle": "Close the shutter.",
+      "difficulty": "Easy",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "hollow_face_cctv",
+      "name": "Hollow Face (CCTV)",
+      "category": "cctv",
+      "detection_method": "CCTV inspection",
+      "description": "Same hollow face expression visible in person can also appear on CCTV. Hard to spot especially if the anomaly isn't looking at the camera.",
+      "how_to_handle": "Use the waiting room camera and check the patient's eyes closely.",
+      "difficulty": "Hard",
+      "source": "IGN"
+    },
+    {
+      "id": "staring_at_camera",
+      "name": "Staring At Camera / Camera Watcher",
+      "category": "cctv",
+      "detection_method": "CCTV inspection",
+      "description": "Anomaly stares straight at the camera when viewed through CCTV. Normal patients should be staring straight ahead at the office.",
+      "how_to_handle": "Close the shutter.",
+      "difficulty": "Medium",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "void_bodies",
+      "name": "Void Bodies / Shadow Patient",
+      "category": "cctv",
+      "detection_method": "CCTV inspection",
+      "description": "Patient's body is completely black on CCTV with no discernable features (IGN) / Patient turns into a shadow when viewed through CCTV (Eurogamer).",
+      "how_to_handle": "Close the shutter.",
+      "difficulty": "Easy",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "skinwalker_cctv",
+      "name": "Skinwalker (CCTV)",
+      "category": "cctv",
+      "detection_method": "CCTV inspection",
+      "description": "Wide open mouth with sharp teeth and long tongue visible on CCTV. Not visible in person or on photographs.",
+      "how_to_handle": "Close the shutter.",
+      "difficulty": "Medium",
+      "source": "IGN"
+    },
+    {
+      "id": "mismatched_ears_eyes_cctv",
+      "name": "Mismatched Ears or Eyes (CCTV)",
+      "category": "cctv",
+      "detection_method": "CCTV inspection",
+      "description": "Patient's ears or eyes don't match the animal standing in front of you when viewed on CCTV. The hardest anomaly to spot since cameras are far away.",
+      "how_to_handle": "First note the patient's ear and eye shape in person, then check the CCTV. Close shutter if mismatched.",
+      "difficulty": "Very Hard",
+      "source": "IGN"
+    },
+    {
+      "id": "twitching_cctv",
+      "name": "Twitching (CCTV)",
+      "category": "cctv",
+      "detection_method": "CCTV inspection",
+      "description": "Patient may twitch on CCTV but not in person. Watch for at least 4-5 seconds to avoid missing quick twitches.",
+      "how_to_handle": "Close the shutter if twitching observed on camera.",
+      "difficulty": "Hard",
+      "source": "IGN"
+    }
+  ],
+  "monsters": [
+    {
+      "id": "bed_monster",
+      "name": "Bed Monster / Monster Under The Bed",
+      "category": "monster",
+      "location": "Patient rooms (under beds)",
+      "description": "Large black hands poke out from under the mattress with a red line on the floor. A large red box on the floor that must be avoided. If you touch the box, the monster will catch you and drag you under, dealing sanity damage.",
+      "how_to_handle": "Avoid the red line, hop over the bed. Treat the patient and the monster will leave. Loves Maple Syrup - give it some to make it leave safely.",
+      "danger_level": "High",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "head_banger",
+      "name": "Head Banger / Head Knocker",
+      "category": "monster",
+      "location": "Reception window",
+      "description": "An unsettling anomaly with a hollow face and sunken eyes that walks into the office, approaches the window, and starts banging its head against the glass for a couple of minutes before cracking the glass and leaving.",
+      "how_to_handle": "Close the shutter while it's rearing back to headbutt. Can't use shutters normally until the monster disappears. Inconvenient but not lethal.",
+      "danger_level": "Low",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "skinwalker",
+      "name": "Skinwalker (Hospital Roaming)",
+      "category": "monster",
+      "location": "Hospital corridors",
+      "description": "Monsters that emerge from anomalies that were let into the hospital. They can transform at any time after admittance. They let out a roar when emerging. Look out for heavy breathing and an exact copy of a patient you've already seen.",
+      "how_to_handle": "Use a gun or taser to shoot the monster. You can also hold E to forcefully dislodge them from their victim, or spam E to punch them if they attack you. Beat the timer before they eat you or a patient.",
+      "danger_level": "Very High",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "stalker",
+      "name": "The Stalker",
+      "category": "monster",
+      "location": "Hospital corridors (around corners)",
+      "description": "A tall, black shadowy bunny entity that hides around corners. Deals sanity damage if you look straight at it. Peek around corners at you.",
+      "how_to_handle": "Avoid eye contact if possible. If you do look, you lose 10 Sanity. Not a massive deal but adds up.",
+      "danger_level": "Medium",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "tendril",
+      "name": "Tendril",
+      "category": "monster",
+      "location": "Surgery room (Room 8 only)",
+      "description": "Large purple tentacles that emerge from patients in the surgery room. Exceedingly rare and only appears in Room 8.",
+      "how_to_handle": "Complete the patient's surgery before the timer runs out. When the mini-game is complete, the tendrils vanish. If you don't make it in time, the patient dies.",
+      "danger_level": "Medium",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "camera_anomaly",
+      "name": "Camera Anomaly / Demon Cat Jumpscare",
+      "category": "monster",
+      "location": "Broken CCTV cameras / Hallways",
+      "description": "IGN: Appears in broken CCTV cameras, slowly zooms in on the monster. Eurogamer: A demonic cat entity with glowing red eyes, visible only through cameras, standing at the end of hallways. The camera zooms in cueing a jumpscare.",
+      "how_to_handle": "IGN: Press the Exit button along the bottom of the screen in time, then fix the camera. Eurogamer: Can't avoid outside of not using cams. Jumpscare costs 20 Sanity.",
+      "danger_level": "Medium",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "dont_look_up",
+      "name": "Don't Look Up / Flesh Ceiling",
+      "category": "monster",
+      "location": "Patient rooms (ceiling)",
+      "description": "A hideous blob of flesh with eyeballs that weeps on the ceiling. You'll hear groaning and see dripping saliva. Game flashes 'don't look up' on screen.",
+      "how_to_handle": "Don't look up! Looking causes steady sanity damage. To remove: hold Eye Drops, open the door facing inside, jump on the door, slowly look toward the monster until 'Accept Treatment' text appears.",
+      "danger_level": "Medium",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "hiders",
+      "name": "Hiders / Translucent Man",
+      "category": "monster",
+      "location": "Windows, curtains, walls, patient rooms",
+      "description": "IGN: Camouflaged monsters that hide against surfaces, breathe very loudly, appear in groups of 3. Eurogamer: A translucent man that blends into the tiles of a patient's room with a pair of eyes and moving body on the wall.",
+      "how_to_handle": "IGN: Listen for raspy breaths, scan the room, see their eyes and smile. Avoid or use gun/taser. Eurogamer: Run away to the lobby and the translucent man disappears in a puff of smoke.",
+      "danger_level": "High",
+      "source": "IGN, Eurogamer"
+    },
+    {
+      "id": "death_ritual",
+      "name": "Death Ritual",
+      "category": "monster",
+      "location": "Patient rooms",
+      "description": "Patient floats above their bed, surrounded by candles and red light. Ominous sounds emerge from the room and all nearby tech glitches out.",
+      "how_to_handle": "Beat the timer and get to their room, then remove all the candles. Removing each candle depletes your own Sanity, but failure means the patient dies.",
+      "danger_level": "High",
+      "source": "Eurogamer"
+    },
+    {
+      "id": "slime",
+      "name": "Slime",
+      "category": "monster",
+      "location": "Hospital floors",
+      "description": "A patient leaking bright green slime onto the floor as they walk by.",
+      "how_to_handle": "Interact with each glob of slime to clean it up.",
+      "danger_level": "Low",
+      "source": "Eurogamer"
+    },
+    {
+      "id": "fire",
+      "name": "Fire",
+      "category": "monster",
+      "location": "Empty patient rooms",
+      "description": "An empty patient room catches on fire, engulfing the area.",
+      "how_to_handle": "Grab the fire extinguisher (right of doors to the shop) and extinguish the fire.",
+      "danger_level": "Medium",
+      "source": "Eurogamer"
+    }
+  ],
+  "detection_tips": [
+    "Always watch patients for at least 4-5 seconds to catch subtle twitching",
+    "Take a photo and wait for it to develop on the desk before picking it up",
+    "Check CCTV cameras (especially waiting room camera) for every patient",
+    "The waiting room camera shows the patient's full body, ears, tail, and face",
+    "Fix broken cameras quickly to maintain surveillance coverage",
+    "Play with sound on to hear Skinwalker roars, Hider breaths, and other audio cues",
+    "If a photo looks odd on the desk, close shutters BEFORE picking it up to avoid sanity damage"
+  ],
+  "sources": [
+    {"site": "IGN Wiki", "url": "https://www.ign.com/wikis/animal-hospital-roblox/All_Anomalies", "date": "2026-06-23"},
+    {"site": "Eurogamer", "url": "https://www.eurogamer.net/roblox-animal-hospital-all-anomalies", "date": "2026-06-26"},
+    {"site": "animal-hospital.me English Wiki", "url": "https://animal-hospital.me/", "date": "2026"},
+    {"site": "Fandom Wiki", "url": "https://animal-hospital.fandom.com/wiki/Anomalies", "date": "2026"}
+  ]
+}

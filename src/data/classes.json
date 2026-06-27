@@ -1,0 +1,302 @@
+{
+  "_source": "IGN Wiki, TechWiser, BloxInformer, Sportskeeda (search snippet), Eurogamer",
+  "_scraped_at": "2026-06-28T12:00:00+08:00",
+  "game": "Animal Hospital (Anomaly)",
+  "platform": "Roblox",
+  "total_classes": 10,
+  "tier_list_consensus": {
+    "source": "TechWiser (primary), IGN Wiki (secondary)",
+    "note": "Tier rankings vary slightly between sources. TechWiser is more recent (June 23, 2026). IGN also provides detailed class info (June 23, 2026)."
+  },
+  "classes": [
+    {
+      "name": "Surgeon",
+      "tier": "S",
+      "price_coins": 2500,
+      "price_robux": null,
+      "currency": "Animal Coins",
+      "role": "Healer / Primary Patient Treatment",
+      "ability": "Gain Sanity and a short speed boost after healing a patient",
+      "rarity": "Premium (highest coin cost)",
+      "level_upgrades": {
+        "level_1": "Get Sanity and Short Speed Boost after healing a Patient",
+        "level_2": "Get Sanity and a longer (8s) speed boost after healing a Patient",
+        "level_3": "Get x2 Sanity and a longer (8s) speed boost after healing a patient, +10 bonus Sanity"
+      },
+      "stats": {
+        "sanity": "Medium-High",
+        "utility": "Medium-Low",
+        "starter_money": "None"
+      },
+      "description": "The top class in Animal Hospital for non-Robux players. Passive Sanity gain and speed boost on every heal makes you self-sustaining as you treat more patients.",
+      "sources": ["IGN", "TechWiser", "BloxInformer"]
+    },
+    {
+      "name": "Secret Agent",
+      "tier": "S",
+      "price_coins": null,
+      "price_robux": 320,
+      "currency": "Robux",
+      "role": "Combat / Anomaly Elimination",
+      "ability": "Start with a gun (dangerous, multiple uses)",
+      "rarity": "Premium (Robux exclusive)",
+      "level_upgrades": {
+        "level_1": "Start with a gun (dangerous, 20 uses)",
+        "level_2": "Start with a gun (dangerous, 30 uses), +10 bonus Sanity",
+        "level_3": "Start with a gun (dangerous, 30 uses) that regenerates 1 use each round, +20 bonus Sanity"
+      },
+      "stats": {
+        "sanity": "Medium",
+        "utility": "High",
+        "starter_money": "Gun"
+      },
+      "description": "The overall best class if willing to spend Robux. The Gun allows you to deal with any powerful Anomalies. At level 3, the gun regenerates between rounds.",
+      "price_note": "BloxInformer lists 790 Robux; IGN lists 890 Robux; TechWiser lists 320 Robux. Actual price may vary by update.",
+      "sources": ["IGN", "TechWiser", "BloxInformer"]
+    },
+    {
+      "name": "Doctor",
+      "tier": "A",
+      "price_coins": 900,
+      "price_robux": null,
+      "currency": "Animal Coins",
+      "role": "Healer / Patient Treatment",
+      "ability": "Recover 1 Sanity when healing patients",
+      "rarity": "Standard",
+      "level_upgrades": {
+        "level_1": "Recover 1 Sanity when healing Patients, +10 bonus Sanity",
+        "level_2": "Recover Sanity when healing Patients, +15 bonus Sanity",
+        "level_3": "Recover Sanity when healing Patients, +20 bonus Sanity"
+      },
+      "stats": {
+        "sanity": "Medium-High",
+        "utility": "Medium",
+        "starter_money": "None"
+      },
+      "description": "The best free option before saving enough for Surgeon. Recovering Sanity on every heal keeps you in a healthy state throughout the shift.",
+      "sources": ["IGN", "TechWiser", "BloxInformer"]
+    },
+    {
+      "name": "Psychologist",
+      "tier": "A",
+      "price_coins": 500,
+      "price_robux": null,
+      "currency": "Animal Coins",
+      "role": "Support / Risk-Reward Sanity Management",
+      "ability": "All Sanity effects are doubled (positive AND negative)",
+      "rarity": "Standard",
+      "level_upgrades": {
+        "level_1": "All Sanity effects are doubled (positive and negative)",
+        "level_2": "All Sanity effects are doubled (positive and negative), with a 7.5% chance to ignore Sanity loss",
+        "level_3": "All Sanity effects are doubled (positive and negative), with a 15% chance to ignore Sanity loss"
+      },
+      "stats": {
+        "sanity": "Variable (high risk/high reward)",
+        "utility": "Medium",
+        "starter_money": "None"
+      },
+      "description": "A high risk, high reward pick. Doubled Sanity effects mean you recover faster from positive sources but also take more damage from negative ones. Level 2+ adds a chance to ignore Sanity loss entirely.",
+      "sources": ["IGN", "TechWiser", "BloxInformer"]
+    },
+    {
+      "name": "Security",
+      "tier": "B",
+      "price_coins": 1250,
+      "price_robux": null,
+      "currency": "Animal Coins",
+      "role": "Defense / Anomaly Suppression",
+      "ability": "Start with X-Taser (5 uses)",
+      "rarity": "Standard",
+      "level_upgrades": {
+        "level_1": "Start with X-Taser (5 Uses)",
+        "level_2": "Start with X-Taser (8 Uses), +10 bonus Sanity",
+        "level_3": "Start with X-Taser (8 Uses), +15 bonus Sanity"
+      },
+      "stats": {
+        "sanity": "Medium",
+        "utility": "High",
+        "starter_money": "None"
+      },
+      "description": "Starts you with a Taser for dealing with Anomalies. However, the Taser is available for free in the Reception Office, making the high Animal Coin cost hard to justify.",
+      "sources": ["IGN", "TechWiser", "BloxInformer"]
+    },
+    {
+      "name": "Secretary",
+      "tier": "B",
+      "price_coins": 120,
+      "price_robux": null,
+      "currency": "Animal Coins",
+      "role": "Front Desk / Patient Admittance",
+      "ability": "Recover 1 Sanity when checking in patients",
+      "rarity": "Standard",
+      "level_upgrades": {
+        "level_1": "Recover 1 Sanity when checking in patients",
+        "level_2": "Recover Sanity when checking in Patients, +5 bonus Sanity",
+        "level_3": "Recover Sanity when checking in Patients, +10 Bonus Sanity"
+      },
+      "stats": {
+        "sanity": "Medium",
+        "utility": "Low",
+        "starter_money": "None"
+      },
+      "description": "Useful early in a shift when patients flow in steadily. Value drops once the lobby quiets down. Best of the B-tier classes according to IGN.",
+      "sources": ["IGN", "TechWiser", "BloxInformer"]
+    },
+    {
+      "name": "Head Nurse",
+      "tier": "B",
+      "price_coins": null,
+      "price_robux": 80,
+      "currency": "Robux",
+      "role": "Support / Inventory Management",
+      "ability": "+3 max inventory capacity",
+      "rarity": "Premium (Robux exclusive)",
+      "level_upgrades": {
+        "level_1": "+3 Max Inventory Capacity",
+        "level_2": "+3 to your Max Inventory Capacity, and +10 Bonus Sanity",
+        "level_3": "+3 Max Inventory Capacity, start each round with all items"
+      },
+      "stats": {
+        "sanity": "Medium",
+        "utility": "High",
+        "starter_money": "None"
+      },
+      "description": "Increased inventory space lets you carry more items around the hospital. Well-rounded stats. IGN ranks this S-tier; TechWiser ranks B-tier due to Robux cost.",
+      "price_note": "BloxInformer lists 140 Robux; TechWiser lists 80 Robux; IGN lists 190 Robux. Actual price may vary by update.",
+      "sources": ["IGN", "TechWiser", "BloxInformer"]
+    },
+    {
+      "name": "Paramedic",
+      "tier": "C",
+      "price_coins": 250,
+      "price_robux": null,
+      "currency": "Animal Coins",
+      "role": "Mobility / Support",
+      "ability": "Start with Large Speed Cola (6 uses)",
+      "rarity": "Standard",
+      "level_upgrades": {
+        "level_1": "Start with Large Speed Cola (6 Uses)",
+        "level_2": "Start with Large Speed Cola (9 Uses)",
+        "level_3": "Start with Large Speed Cola (9 Uses), and one use regenerates each round"
+      },
+      "stats": {
+        "sanity": "None",
+        "utility": "Medium-High",
+        "starter_money": "Large Run Cola"
+      },
+      "description": "Movement speed boosts help bounce between patients, but speed alone doesn't stop patients from dying or Sanity from draining. Better at level 3 with regenerating uses.",
+      "sources": ["IGN", "TechWiser", "BloxInformer"]
+    },
+    {
+      "name": "Nurse",
+      "tier": "C",
+      "price_coins": 10,
+      "price_robux": null,
+      "currency": "Animal Coins",
+      "role": "Support / Item Carrier",
+      "ability": "+1 max inventory capacity",
+      "rarity": "Basic",
+      "level_upgrades": {
+        "level_1": "+1 to your Max Inventory Capacity",
+        "level_2": "+2 to your Max Inventory Capacity",
+        "level_3": "+3 to your Max Inventory Capacity"
+      },
+      "stats": {
+        "sanity": "None",
+        "utility": "Medium",
+        "starter_money": "None"
+      },
+      "description": "A single inventory slot for 10 coins is essentially nothing. No Sanity passives mean you'll eventually be overwhelmed. Better to upgrade quickly.",
+      "sources": ["IGN", "TechWiser", "BloxInformer"]
+    },
+    {
+      "name": "Intern",
+      "tier": "D",
+      "price_coins": 0,
+      "price_robux": null,
+      "currency": "Free (Starter)",
+      "role": "Starter Class",
+      "ability": "Start with +10 bonus Sanity",
+      "rarity": "Default",
+      "level_upgrades": {
+        "level_1": "Start with 10 Bonus Sanity",
+        "level_2": "Start with 15 Bonus Sanity",
+        "level_3": "Start with 20 Bonus Sanity"
+      },
+      "stats": {
+        "sanity": "Medium-low",
+        "utility": "None",
+        "starter_money": "None"
+      },
+      "description": "The default starting class everyone begins with. Only provides a moderate Sanity boost. Mostly a stepping stone to unlock better classes.",
+      "sources": ["IGN", "TechWiser", "BloxInformer"]
+    }
+  ],
+  "tier_list_rankings": {
+    "techwiser": {
+      "source": "TechWiser",
+      "url": "https://techwiser.com/animal-hospital-roblox-tier-list/",
+      "date": "2026-06-23",
+      "S": ["Surgeon", "Secret Agent"],
+      "A": ["Doctor", "Psychologist"],
+      "B": ["Secretary", "Head Nurse", "Security"],
+      "C": ["Paramedic", "Nurse"],
+      "D": ["Intern"]
+    },
+    "ign": {
+      "source": "IGN Wiki",
+      "url": "https://www.ign.com/wikis/animal-hospital-roblox/Best_Classes_Tier_List",
+      "date": "2026-06-23",
+      "S": ["Head Nurse", "Surgeon", "Secret Agent"],
+      "A": ["Doctor", "Psychologist", "Security"],
+      "B": ["Secretary", "Nurse", "Paramedic"],
+      "C": ["Intern"]
+    },
+    "destructoid": {
+      "source": "Destructoid",
+      "url": "https://www.destructoid.com/animal-hospital-class-tier-list/",
+      "date": "2026",
+      "status": "Could not scrape (403 blocked). Available in search snippet: S-Tier best classes, A-Tier second-best, B-Tier, C-Tier mentioned."
+    },
+    "progameguides": {
+      "source": "Pro Game Guides",
+      "url": "https://progameguides.com/roblox/animal-hospital-tier-list/",
+      "date": "2026",
+      "status": "Could not scrape (403 blocked). Search snippet: Surgeon S-Tier (sanity + speed), Head Nurse S-Tier (inventory)."
+    }
+  },
+  "item_tier_list": {
+    "source": "TechWiser",
+    "url": "https://techwiser.com/animal-hospital-roblox-tier-list/",
+    "S": [
+      {"name": "Gun (20 shots)", "type": "Tool", "cost": "$410 / 99 Robux", "description": "Ranged weapon with 20 shots, stronger than Taser"},
+      {"name": "Chocolate", "type": "Tool", "cost": "$120 / 29 Robux", "description": "Restores 20 Sanity per bite, 3 bites total (60% max)"},
+      {"name": "50% Faster DNA Analysis", "type": "Upgrade", "cost": "$110", "description": "Cuts DNA processing from 9s to 4.5s"},
+      {"name": "Patients Recover 25% Faster", "type": "Upgrade", "cost": "$115", "description": "Reduces patient recovery time ~35s to ~26s"}
+    ],
+    "A": [
+      {"name": "Taser", "type": "Tool", "cost": "Free", "description": "Instantly incapacitates hostile entities"},
+      {"name": "Extra Check-In Window", "type": "Upgrade", "cost": "$190-200", "description": "Two patients check in simultaneously"},
+      {"name": "+10% NPC Speed", "type": "Upgrade", "cost": "$150", "description": "Patients move faster"},
+      {"name": "33% Faster Computers", "type": "Upgrade", "cost": "$110", "description": "Speeds up patient room computers"}
+    ],
+    "B": [
+      {"name": "Coffee", "type": "Tool", "cost": "Free / $55", "description": "Restores 5 Sanity per sip, 3 sips (15% max)"},
+      {"name": "Revive 1 Dead Player", "type": "Tool", "cost": "$750", "description": "Brings back a teammate who hit 0 Sanity"},
+      {"name": "+12% NPC Speed", "type": "Upgrade", "cost": "$250", "description": "Further speed boost for patients"},
+      {"name": "Visitors Check In Faster", "type": "Upgrade", "cost": "$20", "description": "Removes hesitation delay at check-in"}
+    ],
+    "C": [
+      {"name": "Shock People (3 uses)", "type": "Tool", "cost": null, "description": "Shock other players"},
+      {"name": "+1 Carry Capacity", "type": "Upgrade", "cost": null, "description": "Extra inventory slot"},
+      {"name": "Give Medicine From Inventory", "type": "Upgrade", "cost": null, "description": "Apply medicine without being at the shelf"}
+    ],
+    "D": [
+      {"name": "Fire Extinguisher", "type": "Tool", "cost": null, "description": "Free in shop, used for fire events"},
+      {"name": "Run Fast Cola", "type": "Tool", "cost": null, "description": "Single-use speed boost"},
+      {"name": "Speed Boost (30s)", "type": "Tool", "cost": null, "description": "Temporary speed boost"},
+      {"name": "Shock People (1 use)", "type": "Tool", "cost": null, "description": "Single-use shock"},
+      {"name": "1-3 Animal Coins", "type": "Misc", "cost": null, "description": "Small coin reward"}
+    ]
+  }
+}

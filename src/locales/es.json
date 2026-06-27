@@ -1,0 +1,37 @@
+{
+  "site": {
+    "name": "Animal Hospital",
+    "tagline": "Fan-Made Community Wiki",
+    "legalNotice": "Non-official fan wiki. Not affiliated with TBD.",
+    "shortName": "Animal Hospital"
+  },
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "tier-list": "Lista de Niveles",
+    "classes": "Clases",
+    "weapons": "Armas",
+    "waves": "Oleadas",
+    "boss": "Jefes",
+    "builds": "Construcciones",
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "tools": "Herramientas"
+  },
+  "anomalies": {
+    "title": "Anomalies",
+    "description": ""
+  },
+  "items": {
+    "title": "Items",
+    "description": ""
+  },
+  "sidebarCodes": [],
+  "home": {
+    "meta": {
+      "title": "Animal Hospital Wiki — Codes, Classes, Tier List & Anomaly Guide",
+      "description": "Complete Animal Hospital Roblox wiki with latest codes, class tier lists, anomaly guides, item database, and walkthroughs."
+    }
+  }
+}
