@@ -41,7 +41,7 @@
             name = "_blank";
             features = (features || "") +
               (features ? "," : "") +
-              "noopener,noreferrer";
+              "noopener";
           }
         } catch (e) { /* ignore */ }
         return rawOpen.call(window, url, name, features);
