@@ -1,13 +1,14 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
-import { ArrowRight, BookOpen, Boxes, ChevronRight, Code2, Flame, Medal, Trophy, Users, Zap, type LucideIcon } from "lucide-react";
+import { ArrowRight, BookOpen, Boxes, Check, ChevronRight, Code2, Copy, Flame, Medal, Trophy, Users, Zap, type LucideIcon } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { TrailerButton, localizeHref } from "@/components/site";
-import { AdBanner, LeaderboardBanner } from "@/components/ads/AdSlot";
+import { AdBanner, LeaderboardBanner, SidebarAds } from "@/components/ads/AdSlot";
 import type { ContentItem } from "@/lib/content";
 import en from "@/locales/en.json";
 
@@ -21,6 +22,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
 
   return (
     <div className="space-y-16">
+      <SidebarAds />
       {/* 首屏横幅广告 — 728×90（桌面端） */}
       <LeaderboardBanner />
 
@@ -168,13 +170,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
                   {mod.displayType === "code-cards" && mod.highlights && mod.highlights.length > 0 && (
                     <div className="space-y-3">
                       {mod.highlights.map((h, i) => (
-                        <div key={i} className="flex items-center justify-between gap-4 rounded-xl border border-border bg-muted p-4">
-                          <div className="flex items-center gap-3">
-                            <code className="rounded-lg bg-background px-3 py-1.5 font-mono text-sm font-bold text-foreground">{h.label}</code>
-                            <span className="text-sm text-muted-foreground">{h.detail}</span>
-                          </div>
-                          {"badge" in h && h.badge && <Badge className="shrink-0 bg-emerald-600 text-white text-[10px]">{h.badge}</Badge>}
-                        </div>
+                        <CodeCard key={i} code={h.label} detail={h.detail} badge={"badge" in h ? h.badge : undefined} />
                       ))}
                     </div>
                   )}
@@ -247,6 +243,26 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
 
       {/* Final CTA (curated, stays in JSON) */}
       <section className="rounded-3xl border border-border bg-gradient-to-br from-muted to-card p-8 text-center"><h2 className="text-3xl font-bold tracking-tight text-foreground">{home.finalCta.title}</h2><p className="mx-auto mt-3 max-w-2xl text-muted-foreground">{home.finalCta.description}</p><div className="mt-6 flex flex-wrap justify-center gap-3"><Button asChild size="lg"><Link href={localizeHref("/guide/animal-hospital-beginner-guide", locale)}>{home.finalCta.primary}<ArrowRight className="ml-2 h-4 w-4" /></Link></Button><Button asChild size="lg" variant="outline"><Link href="https://www.roblox.com/games/71132543521245/Anime-Squadron">{home.finalCta.secondary}</Link></Button></div></section>
+    </div>
+  );
+}
+
+function CodeCard({ code, detail, badge }: { code: string; detail: string; badge?: string }) {
+  const [copied, setCopied] = useState(false);
+  const handleCopy = (e: React.MouseEvent) => {
+    e.preventDefault();
+    navigator.clipboard.writeText(code).then(() => { setCopied(true); setTimeout(() => setCopied(false), 2000); }).catch(() => {});
+  };
+  return (
+    <div className="flex items-center justify-between gap-4 rounded-xl border border-border bg-muted p-4">
+      <div className="flex min-w-0 items-center gap-3">
+        <button onClick={handleCopy} className="group/code relative flex items-center gap-1.5 rounded-lg bg-background px-3 py-1.5 font-mono text-sm font-bold text-foreground transition hover:bg-[hsl(var(--nav-theme))] hover:text-primary-foreground" title="Click to copy">
+          {copied ? <Check className="h-3.5 w-3.5 text-emerald-500" /> : <Copy className="h-3.5 w-3.5 text-muted-foreground group-hover/code:text-primary-foreground" />}
+          {code}
+        </button>
+        <span className="truncate text-sm text-muted-foreground">{detail}</span>
+      </div>
+      {badge && <Badge className="shrink-0 bg-emerald-600 text-white text-[10px]">{badge}</Badge>}
     </div>
   );
 }
