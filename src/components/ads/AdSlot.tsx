@@ -16,19 +16,19 @@ import { useEffect, useRef, useState } from "react";
 
 // ── 广告总开关：设为 false 时所有广告组件不渲染 ──
 // 后续配置好 AdSterra key 后改为 true 即可
-const AD_ENABLED = false;
+const AD_ENABLED = true;
 
 // ── AdSterra 广告 key（animalhospital.games 专属）──
 const AD_KEYS: Record<string, any> = {
-  "320x50": { key: "TBD", width: 320, height: 50 },
-  "300x250": { key: "TBD", width: 300, height: 250 },
-  "160x300": { key: "TBD", width: 160, height: 300 },
-  "160x600": { key: "TBD", width: 160, height: 600 },
-  "468x60": { key: "TBD", width: 468, height: 60 },
-  "728x90": { key: "TBD", width: 728, height: 90 },
+  "320x50": { key: "efcc8797070f632314c95a731fcb788e", width: 320, height: 50 },
+  "300x250": { key: "ba55590ef0c82829d314caf25c0cd920", width: 300, height: 250 },
+  "160x300": { key: "e015c9c4797fa9d8e70fd8b60a59c0e3", width: 160, height: 300 },
+  "160x600": { key: "05d98656a014ad44e7a33e0c7b9fa19a", width: 160, height: 600 },
+  "468x60": { key: "4ab1db0599892137ae11d3e71d0b719c", width: 468, height: 60 },
+  "728x90": { key: "da856cd22bf80ea172c264d4b8fbcff1", width: 728, height: 90 },
   native: {
-    src: "TBD",
-    containerId: "TBD",
+    src: "https://pl30157217.effectivecpmnetwork.com/3a37a38cd22e73048520c27db9068229/invoke.js",
+    containerId: "3a37a38cd22e73048520c27db9068229",
   },
 };
 
